@@ -1,0 +1,13 @@
+certbotBinPath: "certbot"
+certsDir: "/mnt/storage/certs/"
+dryRun: false
+email: "example@example.com"
+certs:
+- certName: "Cert 1"
+  domainNames:
+  - "test1.com"
+  - "test2.com"
+- certName: "Cert 2"
+  domainNames:
+  - "test3.com"
+  - "test4.com"
