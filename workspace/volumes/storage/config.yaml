@@ -1,6 +1,9 @@
 certbotBinPath: "certbot"
 certsDir: "/mnt/storage/certs/"
 dryRun: false
+alwaysZeroReturnCode: false
+sentryEnable: false
+sentryDSN: ""
 email: "example@example.com"
 certs:
 - certName: "Cert 1"

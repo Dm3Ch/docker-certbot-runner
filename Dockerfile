@@ -2,7 +2,7 @@
 FROM alpine:edge
 
 RUN apk add --no-cache python3 certbot=0.14.0-r0 && \
-	pip3 install pyyaml && \
+	pip3 install pyyaml raven --upgrade && \
 	rm -r /root/.cache && \
 	python3 -m ensurepip && \
 	mkdir /mnt/storage
